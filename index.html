@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIQ SHOES</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        hr {
+            border: none; /* Remove a borda padrão */
+            height: 3px;  /* Define a altura da linha */
+            background-color: #4caf50; /* Define a cor de fundo da linha */
+            margin: 20px 0;
+        }
+
+        .sobre {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .sobre img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+
+        .produto {
+            width: 23%;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+        }
+
+        .produto img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .produto button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .produto:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SIQ SHOES</h1>
+    </header>
+
+    <section class="sobre">
+        <div>
+            <h2>Sobre a Loja</h2>
+            <p>SIQ SHOES é uma loja que busca vender produtos com uma boa qualidade e com preços acessíveis para todos. </p>
+            <hr>
+        </div>
+        <img src="no-rules-bauru3-1024x768.jpg" alt="Imagem da Loja" width="400" height="500"> 
+    </section>
+
+    <hr>
+
+    <section class="produtos">
+        <div class="produto">
+            <img src="tenis.jpg" alt="Produto 1">
+            <h3>Air Max AP</h3>
+            <p>O Nike Air Max AP reúne o passado e o presente em um conforto de primeira.</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="tenis33.jpg" alt="Produto 2">
+            <h3>Zoom Blazer Mid</h3>
+            <p>O Zoom Blazer Mid é um tênis feito sob medida para o skatista moderno.</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="tenis2.jpg" alt="Produto 3">
+            <h3>Tatum 1</h3>
+            <p> Continue a jornada honrando suas raízes no Tatum 1 St. Louis.
+            </p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="tenis1.jpg" alt="Produto 4">
+            <h3>Free Run</h3>
+            <p>Se é liberdade que você deseja, este corredor de asfalto pode ajudar a deixá-lo solto.</p>
+            <button>Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+</body>
+</html>
